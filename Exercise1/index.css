@@ -5,6 +5,7 @@
     font-family: sans-serif;
 }
 
+/*header*/
 a{
     text-decoration: none;
 }
@@ -52,6 +53,8 @@ header img{
 .navbar ul li a {
     color: black;
 }
+
+/*section*/
 section {
     border: 1px solid grey;
     margin: 20px;
@@ -79,6 +82,12 @@ section p {
     margin-bottom: 30px;
 }
 
+@keyframes colorChange {
+    0%{background-color: red;}
+    50%{background-color: orangered;}
+    100%{background-color: orange;}
+}
+
 section button {
     height: 40px;
     width: 120px;
@@ -89,6 +98,7 @@ section button {
     border: none;
     border-radius: 6px;
     cursor: pointer;
+    animation: colorChange 5s;
 }
 
 section>img {
@@ -100,6 +110,8 @@ section>img {
     margin-left: 5%;
     object-fit: cover;
 }
+
+/*Article*/
 .container {
     border: 1px solid grey;
     margin: 20px;
@@ -145,6 +157,7 @@ section>img {
     font-size: 14px;
 }
 
+/* Footer */
 footer {
     background: white;
     border: 1px solid grey;
