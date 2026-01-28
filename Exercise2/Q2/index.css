@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #4291e5;
+    font-weight: bold
+}
+
+.arrow{
+    font-size: 28px;
+}
+
+.main{
+    display: flex;
+    position: relative;
+    left: 15%;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    border: 2px solid #c4c7c5;
+    border-radius: 10px;
+    width: 66%;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.header span{
+    width: 66%;
+    text-align: center;
+}
+.container{
+    display: flex;
+    max-height: 600px;
+}
+
+/* .card span{
+    display: block;
+} */
+
+.card h3,.card p,.card a ,hr{
+    margin: 10px;
+}
+.card span{
+    padding: 5px;
+}
+.card i{
+    padding: 10px;
+}
+.side>div{
+    display: flex;
+    margin: 30px;
+}
+
+.side img{
+    width: 200px;
+    height: 151px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+}
+
+.article{
+    border: 2px solid #b3bad1;
+    border-radius: 10px;
+    margin: 40px;
+}
+/* .details{
+    margin: 10px;
+} */
+.details h3,.details>span{
+    padding: 10px;
+}
+.date{
+    position: relative;
+    margin: 10px;
+}
+.date a{
+    position: relative;
+    left: 62%;
+}
+.card img{
+    width: 607px;
+    height: 300px;
+}
