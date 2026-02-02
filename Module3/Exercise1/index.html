@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <section>
+        <div class="h2-div">
+            <h2>Simple Interest</h2>
+        </div>
+        
+        <form>
+            <label for="principal">Principal(Rs.):*</label>
+            <input type="number" name="principal" id="principal" class="form-group">
+            <label for="interest-rate">Interest Rate(%):*</label>
+            <input type="number" name="interest-rate" id="interest-rate" class="form-group">
+            <label for="time-period">Time Period (yrs.):*</label>
+            <input type="number" name="time-period" id="time-period" class="form-group">
+
+        </form>
+        <div class="btn-div">
+            <button class="bgclr" onclick=simpleInterest()>Send</button>
+        </div>
+        
+    </section>
+    <section>
+        <div class="h2-div">
+            <h2>Palindrome Checker</h2>
+        </div>
+        
+        <form>
+            <label for="palindrome">Enter a text:*</label>
+            <input type="text" name="palindrome" id="palindrome" class="form-group">
+
+        </form>
+        <div class="btn-div">
+            <button class="bgclr" onclick=isPalindrome()>Send</button>
+        </div>
+        
+    </section>
+    <section>
+        <div class="h2-div">
+            <h2>Area Of Circle</h2>
+        </div>
+        
+        <form>
+            <label for="radius">Enter Radius of circle (cm):*</label>
+            <input type="number" name="radius" id="radius" class="form-group">
+
+        </form>
+        <div class="btn-div">
+            <button class="bgclr" onclick=areaOfCircle()>Send</button>
+        </div>
+        
+    </section>
+    <section>
+        <div class="h2-div">
+            <h2>Coping a object</h2>
+        </div>
+        
+        <form>
+            <label for="order-id">Enter the order id:*</label>
+            <input type="number" name="order-id" id="order-id" class="form-group">
+            <label for="item-name">Item Name:*</label>
+            <input type="text" name="item-name" id="item-name" class="form-group">
+            <label for="description">Description:*</label>
+            <textarea name="description" id="description"></textarea>
+            <label for="price">Enter the Price:*</label>
+            <input type="text" name="price" id="price" class="form-group">
+
+        </form>
+        <div class="btn-div">
+            <button class="bgclr" onclick=createObject()>Send</button>
+        </div>
+        <div class="btn-div">
+            <button class="bgclr" onclick=copyObject()>Copy</button>
+        </div>
+    </section>
+    <section>
+        <div class="h2-div">
+            <h2>Employee Details</h2>
+        </div>
+        
+        <form>
+            <label for="employee-name">Employee Name:*</label>
+            <input type="text" name="employee-name" id="employee-name" class="form-group">
+            <label for="dob">Date Of Birth:*</label>
+            <input type="date" name="dob" id="dob" class="form-group">
+            <label for="salary">Salary:*</label>
+            <input type="number" name="salary" id="salary" class="form-group">
+        </form>
+        <div class="btn-div">
+            <button class="bgclr" onclick=saveData()>Send</button>
+        </div>
+    </section>
+    <section>
+        <div class="h2-div function">
+            <h2>Some Function On Employee Data</h2>
+        </div>
+        <div class="btn-div function">
+            <h3>Filter Button</h3>
+            <button class="bgclr" onclick=filterEmployee()>Filter</button>
+        </div>
+        <div class="btn-div function">
+            <h3>Group Button</h3>
+            <button class="bgclr" onclick=groupEmployee()>Group</button>
+        </div>
+        <div class="btn-div function">
+            <h3>Salary Increment Button</h3>
+            <button class="bgclr" onclick=incrementSalary()>Increment</button>
+        </div>
+        <div class="btn-div function">
+            <h3>Display Button</h3>
+            <button class="bgclr" onclick=Display()>Display</button>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
