@@ -23,10 +23,10 @@
         
         <form>
             <label for="title">Title:*</label>
-            <input type="text" name="title" id="title" class="form-group">
+            <input type="text" name="title" id="title" class="form-group" required>
 
             <label for="description">Description:*</label>
-            <textarea name="description" id="description"></textarea>
+            <textarea name="description" id="description" required></textarea>
 
             <label for="operating_system">Operating system:</label>
             <select name="operating_system" id="operating_system" class="bgclr form-group">
@@ -40,12 +40,12 @@
             </select>
 
             <label for="product">Product:*</label>
-            <select name="product" id="product" class="bgclr form-group">
+            <select name="product" id="product" class="bgclr form-group" required>
                 <option value="formoid">Formoid</option>
             </select>
 
             <label for="version">Version:*</label>
-            <input type="text" name="version" id="version" pattern="[0-9]" class="form-group">
+            <input type="text" name="version" id="version" pattern="[0-9]" class="form-group" required>
             
             <label for="license">License:</label>
             <div class="radio-group">
@@ -61,12 +61,16 @@
             
             <label for="attachments">Attachments:</label>
             <input type="file" name="attachments" id="attachments">
+            <button class="bgclr" onclick=onClick()>Send</button>
 
         </form>
-        <div class="btn-div">
-            <button class="bgclr">Send</button>
-        </div>
+        
         
     </section>
+    <script>
+        function onClick(){
+            alert("The form has been submitted");
+        }
+    </script>
 </body>
 </html>

@@ -46,14 +46,17 @@ section{
     margin-top: 20px;
     align-items: center;
     border-radius: 8px;
+    background: linear-gradient(to bottom, 
+        #bcc3ca 8%, 
+        transparent 8%, transparent 92%, 
+        #edeff1 92%
+    );
 }
 
 section h2{
     padding: 20px;
-    background-color: #bcc3ca;
     color: white;
     font-weight: bold;
-    width: 696px;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
 }
@@ -97,15 +100,6 @@ form{
     padding: 10px;
 }
 
-.btn-div{
-    background-color: #edeff1;
-    display: flex;
-    height: 60px;
-    width: 696px;
-    flex-direction: row-reverse;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
-}
 button{
     align-self: flex-end;
     margin: 5px 10px 5px;
