@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>JS Assignment 2</h1>
+
+    <div class="question">
+        <h2>Calculator</h2>
+
+        <form>
+
+            <label>
+                Value of a:
+                <input type="number" id="first-number" readonly>
+            </label><br><br>
+
+            <label>
+                Value of b:
+                <input type="number" id="second-number" readonly>
+            </label><br><br>
+
+            <button type="button" onclick="calculator.read()" id="read-btn">Read</button>
+
+            <button type="button" id="add-btn" onclick="calculator.add()">Add</button>
+            <button id="subtract-btn" type="button" onclick="calculator.sub()">Subtract</button>
+            <button id="mutiply-btn" type="button" onclick="calculator.multiply()">Multiply</button>
+        </form>
+
+        <p class="result" id="result"></p>
+    </div>
+
+    <div class="question">
+        <h2>Temperature Converter</h2>
+
+        <form>
+
+            <label>
+                Temperature in celsius:
+                <input type="number" id="temperature-celsius" readonly>
+            </label><br><br>
+
+            <button type="button" onclick="temperatureConverter.read()" id="read-temperature">Read</button>
+
+            <button type="button" id="fahrenheit" onclick="temperatureConverter.toFahrenheit()">Fahrenheit</button>
+            <button id="kelvin" type="button" onclick="temperatureConverter.toKelvin()">Kelvin</button>
+            <button id="display" type="button" onclick="temperatureConverter.display()">Display</button>
+        </form>
+
+        <p class="result" id="temperature-result"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
