@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    justify-content: center;
+}
+
+.home a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+
+.home a:hover{
+    cursor: pointer;
+}
+
+
+.images{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+
+h2{
+    margin: 10px;
+}
+
+
+.btn{
+    width: 75px;
+
+}
+
+.q3-div{
+    margin: 20px;
+}
+.q3-div input{
+    height: 30px;
+    width: 200px;
+}
