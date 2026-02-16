@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background:linear-gradient(90deg ,wheat ,grey);
+    color: black;
+}
+
+.link{
+    margin: 20px;
+}
