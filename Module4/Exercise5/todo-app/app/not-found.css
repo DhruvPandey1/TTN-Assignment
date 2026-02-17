@@ -1,0 +1,45 @@
+.notfound-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #0b1120);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.notfound-card {
+  background-color: #1e293b;
+  padding: 50px 35px;
+  border-radius: 14px;
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.notfound-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+}
+
+.notfound-card h1 {
+  font-size: 36px;
+  color: #ef4444;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.notfound-card p {
+  font-size: 16px;
+  color: #cbd5e1;
+  margin-bottom: 25px;
+}
+
+.countdown {
+  color: #22c55e;
+  font-weight: 700;
+  font-size: 20px;
+}

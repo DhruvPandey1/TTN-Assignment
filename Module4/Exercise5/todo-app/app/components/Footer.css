@@ -1,0 +1,14 @@
+
+.footer{
+    background-color: black;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer span,
+.footer h3{
+    margin: 20px;
+}
