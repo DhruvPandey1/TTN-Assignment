@@ -1,0 +1,72 @@
+.quote-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 25px 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #2e3440;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  color: #d8dee9;
+}
+
+.quote-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #eceff4;
+  font-weight: 700;
+}
+
+.quote-container button {
+  display: block;
+  margin: 0 auto 30px auto;
+  padding: 12px 28px;
+  background-color: #5e81ac;
+  color: #eceff4;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-weight: 600;
+  box-shadow: 0 3px 6px rgba(94,129,172,0.5);
+}
+
+.quote-container button:hover:not(:disabled) {
+  background-color: #4c6e8a;
+  box-shadow: 0 4px 8px rgba(76,110,138,0.7);
+}
+
+.quote-container button:disabled {
+  background-color: #434c5e;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.quote-container p {
+  margin-bottom: 10px;
+  color: #88c0d0;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.quote-container strong {
+  color: #81a1c1;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.quote-container p:last-child {
+  margin-bottom: 20px;
+}
+
+.quote-container p.error {
+  color: #bf616a;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.quotes{
+    margin: 10px;
+}

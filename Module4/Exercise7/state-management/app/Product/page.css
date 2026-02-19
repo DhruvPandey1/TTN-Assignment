@@ -1,0 +1,117 @@
+.product-manager {
+  max-width: 650px;
+  margin: 50px auto;
+  padding: 30px 25px;
+  font-family: 'Poppins', sans-serif;
+  background: #1e293b;
+  border-radius: 15px;
+  color: #e2e8f0;
+}
+
+.product-manager h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #f8fafc;
+}
+
+.product-manager form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.product-manager form input {
+  min-width: 150px;
+  padding: 12px 15px;
+  font-size: 1rem;
+  border: 2px solid #3b82f6;
+  border-radius: 12px;
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+.product-manager form input:focus {
+  border-color: #60a5fa;
+  outline: none;
+  box-shadow: 0 0 8px #60a5fa55;
+}
+
+.product-manager form button {
+  background-color: #3b82f6;
+  color: #f8fafc;
+  padding: 12px 30px;
+  font-weight: 700;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100px;
+}
+
+.product-manager form button:hover {
+  background-color: #1e40af;
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f172a;
+  padding: 15px 20px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  color: #e2e8f0;
+}
+
+.product-item strong {
+  flex-grow: 1;
+  font-weight: 700;
+}
+
+.product-item button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.product-item button:first-of-type {
+  color: #22c55e;
+}
+
+
+.product-item button:last-child {
+  color: #ef4444;
+}
+
+
+.selected-product {
+  background-color: #1e3a8a;
+  padding: 25px 30px;
+  border-radius: 15px;
+  color: #e0f2fe;
+  font-weight: 600;
+}
+
+.selected-product h3 {
+  margin-bottom: 12px;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #60a5fa;
+}
+
+.selected-product p {
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 1rem;
+  color: #bfdbfe;
+}
