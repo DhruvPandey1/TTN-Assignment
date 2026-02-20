@@ -1,0 +1,60 @@
+.students-page {
+  min-height: 100vh;
+  padding: 40px;
+  background-color: #0f172a;
+  color: #f1f5f9;
+  font-family: Arial, sans-serif;
+}
+
+.students-page h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.students-page input {
+  padding: 10px;
+  width: 220px;
+  margin-right: 10px;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  background-color: #1e293b;
+  color: #fff;
+}
+
+.students-page input:focus {
+  outline: none;
+  border-color: #38bdf8;
+}
+
+.students-page button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #38bdf8;
+  color: #0f172a;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.students-page button:hover {
+  background-color: #0ea5e9;
+}
+
+.students-page ul {
+  margin-top: 30px;
+  list-style: none;
+  padding: 0;
+}
+
+.students-page li {
+  padding: 10px;
+  margin-bottom: 8px;
+  background-color: #1e293b;
+  border-radius: 6px;
+  transition: 0.2s ease;
+}
+
+.students-page li:hover {
+  background-color: #334155;
+}

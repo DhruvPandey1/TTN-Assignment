@@ -1,0 +1,34 @@
+{
+  "teachers": [
+    {
+      "id": "1",
+      "name": "Sapna",
+      "subject": "OOPS"
+    },
+    {
+      "id": "2",
+      "name": "Ashish",
+      "subject": "C++"
+    },
+    {
+      "id": "3",
+      "name": "Tanya",
+      "subject": "Java"
+    },
+    {
+      "id": "4",
+      "name": "Samar",
+      "subject": "Javascript"
+    },
+    {
+      "id": "5",
+      "name": "Mayank",
+      "subject": "ReactJs"
+    },
+    {
+      "id": "6",
+      "name": "Naman",
+      "subject": "Web Dev"
+    }
+  ]
+}
