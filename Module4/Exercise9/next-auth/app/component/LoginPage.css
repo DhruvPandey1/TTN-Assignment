@@ -1,0 +1,17 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+  gap: 16px;
+  user-select: none;
+}
+
+.login-container p {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
