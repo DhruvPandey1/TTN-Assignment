@@ -1,0 +1,17 @@
+.memo {
+  padding: 40px;
+}
+
+.memo h2 {
+  margin-bottom: 20px;
+}
+
+.memo pre {
+  background: #111;
+  color: #00ff88;
+  padding: 16px;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin-bottom: 20px;
+  font-size: 14px;
+}

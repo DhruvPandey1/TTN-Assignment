@@ -1,0 +1,31 @@
+.tagged {
+  padding: 40px;
+}
+
+.tagged h1 {
+  margin-bottom: 20px;
+}
+
+.tagged pre {
+  background: #111;
+  color: #00ff88;
+  padding: 16px;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.tagged button {
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: none;
+  background: #0070f3;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.tagged button:hover {
+  background: #0059c1;
+}

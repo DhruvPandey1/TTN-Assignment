@@ -1,0 +1,22 @@
+.home {
+  padding: 40px;
+}
+
+.home h1 {
+  margin-bottom: 20px;
+}
+
+.home button {
+  padding: 10px 16px;
+  margin-right: 12px;
+  border-radius: 6px;
+  border: none;
+  background: #111;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.home button:hover {
+  background: #333;
+}

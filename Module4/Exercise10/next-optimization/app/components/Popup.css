@@ -1,0 +1,45 @@
+.popup {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1000;
+}
+
+.popup > div {
+  background: #fff;
+  padding: 24px;
+  color: black;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 700px;
+  max-height: 80vh;
+  overflow-y: auto;
+  text-align: center;
+}
+
+.popup button {
+  margin-top: 16px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background: #0070f3;
+  color: white;
+  transition: 0.2s ease;
+}
+
+.popup button:hover {
+  background: #0059c1;
+}
+
+.popup .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+}
