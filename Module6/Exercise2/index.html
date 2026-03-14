@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select id="branchFilter">
+        <option value="">All</option>
+        <option value="CSE">CSE</option>
+        <option value="IT">IT</option>
+        <option value="ECE">ECE</option>
+    </select>
+
+    <table border="1">
+        <thead>
+        <tr>
+        <th>Name</th>
+        <th>Branch</th>
+        <th>Action</th>
+        </tr>
+        </thead>
+
+        <tbody id="studentTable"></tbody>
+    </table>
+
+    <script>
+        async function loadStudents(branch = "") {
+
+            const res = await fetch(`http://localhost:8000/api/students/getAll&Filter-students?branch=${branch}`);
+
+            const data = await res.json();
+
+            const table = document.getElementById("studentTable");
+
+            table.innerHTML = "";
+
+            data.forEach(student => {
+
+                table.innerHTML += `
+                <tr>
+                    <td>${student.name}</td>
+                    <td>${student.branch}</td>
+                    <td>
+                    <button onclick="deleteStudent(${student.id})">
+                        Delete
+                    </button>
+                    </td>
+                </tr>
+                `;
+
+            });
+
+        }
+
+        document
+        .getElementById("branchFilter")
+        .addEventListener("change", function () {
+
+            loadStudents(this.value);
+
+        });
+
+        async function deleteStudent(id) {
+
+            await fetch(`http://localhost:8000/api/students/delete-students/${id}`, {
+                method: "DELETE"
+            });
+
+            loadStudents();
+
+        }
+
+        loadStudents();
+    </script>
+</body>
+</html>
